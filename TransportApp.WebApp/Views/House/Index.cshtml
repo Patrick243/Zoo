@@ -1,0 +1,133 @@
+﻿@using System.Security.Claims;
+@model List<TransportApp.Domain.Route>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-3">
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Routes Of the city</h2>
+        </div>
+        @{
+            if (User.HasClaim(ClaimsIdentity.DefaultRoleClaimType, "admin"))
+            {
+                <div class="col-6 d-flex p-2 justify-content-end">
+                    <a asp-controller="Route" asp-action="Create" class="btn btn-info d-flex p-2 justify-content-end">
+                        <i class="bi bi-plus-circle pl-1"></i>&nbsp;Add New Route
+                    </a>
+
+                </div>
+            }
+        }
+
+        <form class="d-flex">
+            <input class="form-control me-sm-2" type="search" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+    </div>
+</div>
+<hr class="bg-primary" />
+<table class="table table-bordered table-striped" style="width:100%;">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name Of Route</th>
+            <th>Depart</th>
+            <th>Arrival</th>
+            <th>Bus Stops</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int i = 1;
+        }
+        @foreach (var route in Model)
+        {
+            <tr>
+                <td>@i</td>
+                <td>@route.Name</td>
+                <td>@route.InitialPlace</td>
+                <td>@route.FinalPlace</td>
+                <td><a class="btn btn-primary" asp-controller="BusStop" asp-action="Index" asp-route-id="@route.Id">View Bus Stops</a></td>
+                @{
+                    if (User.HasClaim(ClaimsIdentity.DefaultRoleClaimType, "admin"))
+                    {
+                        <td>
+                            <div class="w-75 btn-group" role="group">
+                                <a asp-controller="Route" asp-action="Edit" class="btn btn-primary" asp-route-id="@route.Id">
+                                    <i class="bi bi-pencil-square"></i>&nbsp;Edit
+                                </a>
+                                <a asp-controller="Route" asp-action="Delete" class="btn btn-danger" asp-route-id="@route.Id">
+                                    <i class="bi bi-trash3-fill"></i>&nbsp;Delete
+                                </a>
+                            </div>
+                        </td>
+                    }
+                }
+            </tr>
+            i++;
+        }
+    </tbody>
+</table>
+
+@{
+    ViewBag.Title = "Itinéraire";
+}
+
+<h2>Itinéraire</h2>
+
+<div>
+    <label>Position actuelle :</label>
+    <input type="text" id="start" />
+</div>
+<div>
+    <label>Destination :</label>
+    <input type="text" id="end" />
+</div>
+<div>
+    <button onclick="trouverItineraire()">Trouver l'itinéraire</button>
+</div>
+<div id="instructions"></div>
+
+@section scripts {
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2AtBtUgaKNBQGFrSwH-cBsiIkQmKMViY"></script>
+    <script>
+        function trouverItineraire() {
+            var start = document.getElementById("start").value;
+            var end = document.getElementById("end").value;
+
+            var directionsService = new google.maps.DirectionsService();
+            var directionsRenderer = new google.maps.DirectionsRenderer();
+
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 7,
+                center: { lat: 47.2333, lng: 6.0333 }
+            });
+
+            directionsRenderer.setMap(map);
+
+            var request = {
+                origin: start,
+                destination: end,
+                travelMode: 'DRIVING'
+            };
+
+            directionsService.route(request, function (result, status) {
+                if (status == 'OK') {
+                    directionsRenderer.setDirections(result);
+                    var instructions = document.getElementById("instructions");
+                    instructions.innerHTML = "";
+                    var steps = result.routes[0].legs[0].steps;
+                    for (var i = 0; i < steps.length; i++) {
+                        instructions.innerHTML += "<div>" + steps[i].instructions + "</div>";
+                    }
+                } else {
+                    instructions.innerHTML = "Impossible de trouver l'itinéraire.";
+                }
+            });
+        }
+    </script>
+}
+<div id="map" style="height: 500px;"></div>

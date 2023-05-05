@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6794F834-879A-4AB5-A5F8-EABAA772606B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/BusStopController.cs">
+    <Files>
+      <File FileName="Controllers/BusStopController.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TransportApp.WebApp" expanded="True">
+            <Node name="TransportApp.WebApp" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BusStopController.cs" selected="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.TransportApp.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

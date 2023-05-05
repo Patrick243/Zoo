@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Itinéraire";
+}
+
+<h2>Itinéraire</h2>
+
+<div>
+    <label>Position actuelle :</label>
+    <input type="text" id="start" />
+</div>
+<div>
+    <label>Destination :</label>
+    <input type="text" id="end" />
+</div>
+<div>
+    <button onclick="trouverItineraire()">Trouver l'itinéraire</button>
+</div>
+<div id="instructions"></div>
+
+@section scripts {
+    <script src="https://maps.googleapis.com/maps/api/js?key=VOTRE_CLE_API"></script>
+    <script>
+        function trouverItineraire() {
+            var start = document.getElementById("start").value;
+            var end = document.getElementById("end").value;
+
+            var directionsService = new google.maps.DirectionsService();
+            var directionsRenderer = new google.maps.DirectionsRenderer();
+
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 7,
+                center: { lat: 47.2333, lng: 6.0333 }
+            });
+
+            directionsRenderer.setMap(map);
+
+            var request = {
+                origin: start,
+                destination: end,
+                travelMode: 'DRIVING'
+            };
+
+            directionsService.route(request, function (result, status) {
+                if (status == 'OK') {
+                    directionsRenderer.setDirections(result);
+                    var instructions = document.getElementById("instructions");
+                    instructions.innerHTML = "";
+                    var steps = result.routes[0].legs[0].steps;
+                    for (var i = 0; i < steps.length; i++) {
+                        instructions.innerHTML += "<div>" + steps[i].instructions + "</div>";
+                    }
+                } else {
+                    instructions.innerHTML = "Impossible de trouver l'itinéraire.";
+                }
+            });
+        }
+    </script>
+}
+<div id="map" style="height: 500px;"></div>

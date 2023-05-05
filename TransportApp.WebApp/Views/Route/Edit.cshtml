@@ -1,0 +1,28 @@
+﻿@model TransportApp.Domain.Route
+
+<form asp-controller="Route" asp-action="Edit">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Edit</h2>
+			<hr class="bg-primary"/>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name" class="form-control" placeholder="Enter The Name of the book"/>
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="InitialPlace" class="form-label">Title :</label>
+			<input asp-for="InitialPlace" class="form-control" placeholder="Enter The Depart of the Route"/>
+			<span asp-validation-for="InitialPlace" class="text-danger"></span>
+		</div>
+		<div class="mb-3">
+			<label asp-for="FinalPlace" class="form-label">Title :</label>
+			<input asp-for="FinalPlace" class="form-control" placeholder="Enter The Depart of the Route"/>
+			<span asp-validation-for="FinalPlace" class="text-danger"></span>
+		</div>
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Submit</button>
+		<a asp-controller="Route" asp-action="Index" class="btn btn-secondary" style="width:150px;">Back to Routes</a>
+	</div>
+</form>

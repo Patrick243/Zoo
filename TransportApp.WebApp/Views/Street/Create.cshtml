@@ -1,0 +1,26 @@
+﻿@model TransportApp.Domain.Street
+
+<form asp-controller="Street" asp-action="Create">
+	<div class="border p-3 mt-4">
+		<div class="row pb-2">
+			<h2 class="text-primary">Create A New Street</h2>
+			<hr class="bg-primary"/>
+		</div>
+		<div class="mb-3">
+			<label asp-for="Name" class="form-label">Name :</label>
+			<input asp-for="Name" class="form-control" placeholder="Enter The Name of the Street"/>
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<button type="submit" class="btn btn-info" style="width:158px;">Create</button>
+		<a asp-controller="BusStop" asp-action="Index" class="btn btn-secondary" style="width:150px;">Back to Bus Street</a>
+	</div>
+</form>
+
+
+@section Scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
