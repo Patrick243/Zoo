@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kayem\\source\\repos\\WebApplication1\\WebApplication1.csproj": {}
+    "D:\\Patrick\\Zoo\\Localisation\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kayem\\source\\repos\\WebApplication1\\WebApplication1.csproj": {
+    "D:\\Patrick\\Zoo\\Localisation\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kayem\\source\\repos\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "D:\\Patrick\\Zoo\\Localisation\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\Kayem\\source\\repos\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\Kayem\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kayem\\source\\repos\\WebApplication1\\obj\\",
+        "projectPath": "D:\\Patrick\\Zoo\\Localisation\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Hewlett Packard\\.nuget\\packages\\",
+        "outputPath": "D:\\Patrick\\Zoo\\Localisation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kayem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Hewlett Packard\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
