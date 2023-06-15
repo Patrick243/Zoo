@@ -9,109 +9,113 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TransportApp.WebApp
 build_property.RootNamespace = TransportApp.WebApp
-build_property.ProjectDir = C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.WebApp\
+build_property.ProjectDir = D:\Patrick\Zoo\TransportApp.WebApp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.WebApp
+build_property.MSBuildProjectDirectory = D:\Patrick\Zoo\TransportApp.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Account/Login.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Account/Register.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/BusStop/Create.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/BusStop/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzU3RvcFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/BusStop/Delete.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/BusStop/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzU3RvcFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/BusStop/Edit.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/BusStop/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzU3RvcFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/BusStop/Index.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/BusStop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnVzU3RvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/House/Create.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/House/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/House/Delete.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/House/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/House/Edit.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/House/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/House/Index.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/House/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/House/Itineraire.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/House/Itineraire.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG91c2VcSXRpbmVyYWlyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Route/Create.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Map/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Route/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Route/Delete.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Route/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Route/Edit.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Route/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Route/Index.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Route/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Shared/Error.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Shared/_Notification.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Street/Create.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Street/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Street/Delete.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Street/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Street/Edit.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Street/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Street/Index.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Street/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RyZWV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/_ViewImports.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/_ViewStart.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Kayem/OneDrive/Documents/My project/New folder/TransportWebApplication/TransportApp.WebApp/Views/Shared/_Layout.cshtml]
+[D:/Patrick/Zoo/TransportApp.WebApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yplae34nsv

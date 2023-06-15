@@ -66,3 +66,15 @@ C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.pdb
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.genruntimeconfig.cache
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Domain\obj\Debug\net6.0\ref\TransportApp.Domain.dll
+D:\Patrick\Zoo\TransportApp.Domain\bin\Debug\net6.0\TransportApp.Domain.deps.json
+D:\Patrick\Zoo\TransportApp.Domain\bin\Debug\net6.0\TransportApp.Domain.runtimeconfig.json
+D:\Patrick\Zoo\TransportApp.Domain\bin\Debug\net6.0\TransportApp.Domain.dll
+D:\Patrick\Zoo\TransportApp.Domain\bin\Debug\net6.0\TransportApp.Domain.pdb
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.csproj.AssemblyReference.cache
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.csproj.CoreCompileInputs.cache
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.dll
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\refint\TransportApp.Domain.dll
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.pdb
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\TransportApp.Domain.genruntimeconfig.cache
+D:\Patrick\Zoo\TransportApp.Domain\obj\Debug\net6.0\ref\TransportApp.Domain.dll
