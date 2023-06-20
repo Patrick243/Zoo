@@ -1,5 +1,25 @@
 ﻿@model TransportApp.Domain.Route
 
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2AtBtUgaKNBQGFrSwH-cBsiIkQmKMViY&libraries=places">
+
+</script>
+<script type="text/javascript">
+    var source, destination;
+    var directionsDisplay;
+    var directionsService = new google.maps.DirectionsService();
+    google.maps.event.addDomListener(window, 'load', function () {
+        new google.maps.places.SearchBox(document.getElementById('initialPlace'));
+        new google.maps.places.SearchBox(document.getElementById('finalPlace'));
+        directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
+    });
+    document.getElementById('mode').addEventListener('change', function () {
+        calculateAndDisplayRoute(directionsService, directionsDisplay);
+    });
+   
+</script>
+
+
 <form asp-controller="Route" asp-action="Create" method="post">
 	<div class="border p-3 mt-4">
 		<div class="row pb-2">
@@ -12,13 +32,13 @@
 			<span asp-validation-for="Name" class="text-danger"></span>
 		</div>
 		<div class="mb-3">
-			<label asp-for="InitialPlace" class="form-label">Depart :</label>
-			<input asp-for="InitialPlace" class="form-control" placeholder="Enter The Depart of the Route"/>
+			<label asp-for="InitialPlace" class=" form-label">Depart-Point :</label>
+			<input asp-for="InitialPlace" id="initialPlace" class="form-control" placeholder="Enter The Depart of the Route" />
 			<span asp-validation-for="Name" class="text-danger"></span>
 		</div>
 		<div class="mb-3">
-			<label asp-for="FinalPlace" class="form-label">Title :</label>
-			<input asp-for="FinalPlace" class="form-control" placeholder="Enter The Final of the Route"/>
+			<label asp-for="FinalPlace" class="form-label">End-Point :</label>
+			<input asp-for="FinalPlace" id="finalPlace" class=" form-control" placeholder="Enter The Final of the Route" />
 			<span asp-validation-for="Name" class="text-danger"></span>
 		</div>
 		<div asp-validation-summary="All" class="text-danger"></div>
@@ -26,6 +46,7 @@
 		<a asp-controller="Route" asp-action="Index" class="btn btn-secondary" style="width:150px;">Back to Routes</a>
 	</div>
 </form>
+
 
 
 @section Scripts{

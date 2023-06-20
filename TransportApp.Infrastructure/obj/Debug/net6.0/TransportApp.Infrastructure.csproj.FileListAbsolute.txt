@@ -108,3 +108,22 @@ C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.pdb
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.genruntimeconfig.cache
 C:\Users\Kayem\OneDrive\Documents\My project\New folder\TransportWebApplication\TransportApp.Infrastructure\obj\Debug\net6.0\ref\TransportApp.Infrastructure.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Infrastructure.deps.json
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Infrastructure.runtimeconfig.json
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Infrastructure.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Infrastructure.pdb
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Application.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Domain.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Application.pdb
+D:\Patrick\Zoo\TransportApp.Infrastructure\bin\Debug\net6.0\TransportApp.Domain.pdb
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.csproj.AssemblyReference.cache
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.AssemblyInfoInputs.cache
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.AssemblyInfo.cs
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.csproj.CopyComplete
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\refint\TransportApp.Infrastructure.dll
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.pdb
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\TransportApp.Infrastructure.genruntimeconfig.cache
+D:\Patrick\Zoo\TransportApp.Infrastructure\obj\Debug\net6.0\ref\TransportApp.Infrastructure.dll
